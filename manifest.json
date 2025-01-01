@@ -1,0 +1,17 @@
+{
+    "description": "Make explicit the bias of the medium.",
+    "manifest_version": 2,
+    "name": "Inherent Bias",
+    "version": "1.0",
+  
+    "permissions": [
+        "http://*/*", 
+        "https://*/*",
+        "activeTab"
+      ],
+  
+    "browser_action": {
+      "default_title": "Inherent Bias",
+      "default_popup": "popup.html"
+    }
+  }
