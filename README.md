@@ -1,5 +1,6 @@
 # Inherent Bias
 ![Gif of the app running and coloring text on a webpage](https://raw.githubusercontent.com/1gfelton/inherent-bias/refs/heads/main/out.gif)
+
 A critical exploration into machine reading comprehension using [Gensim](https://radimrehurek.com/gensim/) and [Pandas](https://pandas.pydata.org/). Contains an NLP model trained using this [dataset](https://github.com/rpryzant/neutralizing-bias).
 ## What Does it Do?
 This FireFox add-on gathers the text on a webpage, passes each term into a pre-trained NLP model and then compares the cosine similarity between a list of pre-trained terms and the current term. The greater this value (on average, after comparison with all bias terms), the more red is added to the color of the text.
